@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="panda.png" type="png">
+  <link rel="stylesheet" href="login.css">
+  <title>Panda.com</title>
+</head>
+<body>
+  <div class="container">
+    <div class="register" id="registerfullform">
+      <div class="pandaicon">
+        <img src="panda.png" alt="" class="pandaimg">
+      </div>
+      <div class="regheading">
+        <h2 class="regh2">Register</h2>
+      </div> 
+      <div class="reggreetings">
+        <p class="reggreetingsP">Welcome to our community! Let's start by registering you.</p>
+      </div>
+      <form id="reg" class="regform">
+        <input id="regemailInput" placeholder="Email" class="regemailInput">
+        <div class="pass">
+          <input id="regpassInput" placeholder="Password" class="regpassInput" type="password">
+          <img src="closedeye.png" class="closedeye" id="regclosedeye">
+          <img src="openeye.png" class="openeye" id="regopeneye">
+        </div>
+        <div class="pass">
+          <input id="confirmpassword" class="confirmpassword" placeholder="confirm password" type="password">
+          <img src="closedeye.png" class="closedeye" id="confirmclosedeye">
+          <img src="openeye.png" class="openeye" id="confirmopeneye">
+        </div> 
+        <button id="regsubmitBtn" type="submit" class="regsubmitBtn">Register</button>
+        <div class="loginlinkform">
+          <p class="loginlinkp">Already a member?</p>
+          <button class="loginlink" id="loginlink">login</button>
+        </div>
+      </form>
+    </div>
+    <div class="afterreg" id="afterreg">
+      <div class="registrationsuccesfull">
+        <h2 class="heading">REGISTRATION SUCCESSFULL</h2>
+      </div>
+      <button class="regloginbtn" id="regloginbtn">login</button>
+    </div>
+    <div class="login" id="login">
+      <div class="pandaicon">
+        <img src="panda.png" alt="" class="pandaimg">
+      </div>
+      <div class="logheading">
+        <h2 class="logh2">Login</h2>
+      </div>
+      <div class="reggreetings">
+        <p class="reggreetingsP">Ready to dive in? Just log in to begin.</p>
+      </div> 
+      <form id="log" class="logform">
+        <input id="logemailInput" placeholder="Email" class="logemailInput">
+        <div class="pass">
+          <input id="logpassInput" placeholder="Password" class="logpassInput" type="password">
+          <img src="closedeye.png" class="closedeye" id="closedeye">
+          <img src="openeye.png" class="openeye" id="openeye">
+        </div>
+        <button id="logsubmitBtn" type="submit" class="logsubmitBtn">Login</button>
+        <div class="loginlinkform">
+          <p class="loginlinkp">Not have an account?</p>
+          <button class="loginlink" id="reglink">signin</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
